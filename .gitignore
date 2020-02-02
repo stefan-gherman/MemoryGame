@@ -190,6 +190,6 @@ pyvenv.cfg
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
-
+.idea/
 
 # End of https://www.gitignore.io/api/venv,python,pycharm,visualstudiocode
