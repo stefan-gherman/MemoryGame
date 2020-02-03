@@ -1,10 +1,13 @@
 {% extends 'layout.html' %}
+{% block head %}
+    <script src="{{url_for('static', filename='scripts/gameScript.js')}}" defer></script>
+{% endblock %}
 {% block content %}
 <div class="container">
     <div class="row col-lg-12">
         {% for i in range(cards) %}
          <div class="card ">
-             <span style="">Test Text</span>
+             <i class="fas fa-crow fa-5x"></i>
          </div>
         {% endfor %}
     </div>
