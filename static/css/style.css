@@ -41,10 +41,13 @@ body {
     text-align: center;
     display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 
 }
-
+fas fa-crow fa-5x {
+    color: white;
+    font-size: 80%;
+}
 .row {
     margin-left: 40px;
     margin-top: 20%;
