@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{%block content %}
+
+<div class="container">
+<h1 class="display-4">Memory Game</h1>
+<form method="post" action="/game">
+    <div class="form-group">
+    <label for="exampleFormControlSelect1" id="labels" >Number of Cards</label>
+    <select class="form-control" id="exampleFormControlSelect1" name = "exampleFormControlSelect1">
+      <option>10</option>
+      <option>20</option>
+    </select>
+        <button class="btn btn-success" type="submit"><i class="fas fa-play"></i></button>
+  </div>
+
+</form>
+
+</div>
+{% endblock %}
